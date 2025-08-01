@@ -1,2 +1,2 @@
 # RynnEC
-RynnBotEC: Bringing Video MLLM into Embodied World
+RynnEC: Bringing Video MLLM into Embodied World
