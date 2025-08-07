@@ -86,7 +86,7 @@ options:
 
 
 ## 🕹️ RynnEC-Bench
-RynnEC-Bench evaluates the models in two key areas: `object cognition` and `spatial cognition`, evaluating a total of `42` embodied cognitive abilities.
+RynnEC-Bench evaluates the models in two key areas: `object cognition` and `spatial cognition`, evaluating a total of `22` embodied cognitive abilities.
 
 <p align="center">
     <img src="assets/bench.png" width="90%" style="margin-bottom: 0.2;"/>
