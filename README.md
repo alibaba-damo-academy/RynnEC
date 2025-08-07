@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/DAMO-NLP-SG/VideoLLaMA3/blob/main/assets/logo.png?raw=true" width="150" style="margin-bottom: 0.2;"/>
+    <img src="assets/logo.jpg" width="150" style="margin-bottom: 0.2;"/>
 <p>
 
 <h3 align="center"><a href="" style="color:#9C276A">
