@@ -9,13 +9,13 @@ RynnEC: Bringing MLLMs into Embodied World</a></h3>
 
 <h5 align="center">
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-yellow)](https://github.com/DAMO-NLP-SG/VideoLLaMA3/blob/main/LICENSE) 
+[![License](https://img.shields.io/badge/License-Apache%202.0-yellow)](https://github.com/alibaba-damo-academy/RynnEC/blob/main/LICENSE) 
 [![hf_space](https://img.shields.io/badge/🤗-Demo-9C276A.svg)]()
-[![hf_checkpoint](https://img.shields.io/badge/🤗-Checkpoints-9C276A.svg)](https://huggingface.co/collections/DAMO-NLP-SG/videollama3-678cdda9281a0e32fe79af15) 
-[![hf_checkpoint](https://img.shields.io/badge/🤗-Benchmark-9C276A.svg)](https://huggingface.co/collections/DAMO-NLP-SG/videollama3-678cdda9281a0e32fe79af15)
+[![hf_checkpoint](https://img.shields.io/badge/🤗-Checkpoints-9C276A.svg)](https://huggingface.co/Alibaba-DAMO-Academy/RynnEC-2B) 
+[![hf_checkpoint](https://img.shields.io/badge/🤗-Benchmark-9C276A.svg)](https://huggingface.co/datasets/Alibaba-DAMO-Academy/RynnEC-Bench)
 <br>
-[![hf_paper](https://img.shields.io/badge/🤗-Paper%20In%20HF-red.svg)](https://huggingface.co/papers/2501.13106)
-[![arXiv](https://img.shields.io/badge/Arxiv-2501.13106-AD1C18.svg?logo=arXiv)](https://arxiv.org/abs/2501.13106) 
+[![hf_paper](https://img.shields.io/badge/🤗-Paper%20In%20HF-red.svg)]()
+[![arXiv](https://img.shields.io/badge/Arxiv-2501.13106-AD1C18.svg?logo=arXiv)]() 
 </h5>
 
 
@@ -123,7 +123,7 @@ If you find RynnEC useful for your research and applications, please cite using 
 
 
 ## 👍 Acknowledgement
-Our RynnEC is built on top of [**VideoLLaMA3**](https://github.com/DAMO-NLP-SG/VideoLLaMA3). We also learned a lot from the implementation of [**VideoRefer**](https://github.com/DAMO-NLP-SG/VideoRefer), [**Sa2VA**](https://github.com/magic-research/Sa2VA), and [**Qwen2VL**](https://github.com/QwenLM/Qwen2-VL). Besides, our VideoLLaMA3 benefits from tons of open-source efforts. If your work is used in RynnEC but not mentioned in either this repo or the technical report, feel free to let us know :heart:.
+Our RynnEC is built on top of [**VideoLLaMA3**](https://github.com/DAMO-NLP-SG/VideoLLaMA3). We also learned a lot from the implementation of [**VideoRefer**](https://github.com/DAMO-NLP-SG/VideoRefer), [**Sa2VA**](https://github.com/magic-research/Sa2VA), and [**Qwen2VL**](https://github.com/QwenLM/Qwen2-VL). If your work is used in RynnEC but not mentioned in either this repo or the technical report, feel free to let us know :heart:.
 
 
 ## 🔒 License
