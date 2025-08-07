@@ -10,7 +10,7 @@ RynnEC: Bringing MLLMs into Embodied World</a></h3>
 <h5 align="center">
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-yellow)](https://github.com/DAMO-NLP-SG/VideoLLaMA3/blob/main/LICENSE) 
-[![hf_space](https://img.shields.io/badge/🤗-Demo-9C276A.svg)](https://huggingface.co/spaces/lixin4ever/VideoLLaMA3-Image)
+[![hf_space](https://img.shields.io/badge/🤗-Demo-9C276A.svg)]()
 [![hf_checkpoint](https://img.shields.io/badge/🤗-Checkpoints-9C276A.svg)](https://huggingface.co/collections/DAMO-NLP-SG/videollama3-678cdda9281a0e32fe79af15) 
 [![hf_checkpoint](https://img.shields.io/badge/🤗-Benchmark-9C276A.svg)](https://huggingface.co/collections/DAMO-NLP-SG/videollama3-678cdda9281a0e32fe79af15)
 <br>
@@ -26,6 +26,9 @@ RynnEC: Bringing MLLMs into Embodied World</a></h3>
 **RynnEC** is a video multi-modal large language model (MLLM) specifically designed for embodied cognition
 tasks. 
 
+<p align="center">
+    <img src="assets/radar.png" width="100%" style="margin-bottom: 0.2;"/>
+<p>
 
 
 ## 🛠️ Requirements and Installation
@@ -60,9 +63,9 @@ Checkout [inference notebooks](inference/notebooks/) that demonstrate how to use
 
 | Notebooks                | Description   |
 | :-------------------- | ------------------------------------------------------------------------ |
-| [Object Understanding](inference/notebooks/01_object_understanding.ipynb)      | Demonstrates how to use RynnEC for **general object recognition and understanding** |
-| [Spatial Understanding](inference/notebooks/02_multi_image_understanding.ipynb)       | Demonstrations of using RynnEC for **spatial understanding** with 3D awareness|
-| [Video Object Segmentation](inference/notebooks/03_visual_referring_and_grounding.ipynb) | Demonstrations of using RynnEC for **video object segmentation** with text-based instructions|
+| [Object Understanding](inference/notebooks/1.object_understanding.ipynb)      | Demonstrates how to use RynnEC for **general object recognition and understanding** |
+| [Spatial Understanding](inference/notebooks/2.spatial_understanding.ipynb)       | Demonstrations of using RynnEC for **spatial understanding** with 3D awareness|
+| [Video Object Segmentation](inference/notebooks/3.object_segmentation.ipynb) | Demonstrations of using RynnEC for **video object segmentation** with text-based instructions|
 
 
 
@@ -120,7 +123,7 @@ If you find RynnEC useful for your research and applications, please cite using 
 
 
 ## 👍 Acknowledgement
-Our RynnEC is built on top of [VideoLLaMA3](https://github.com/DAMO-NLP-SG/VideoLLaMA3). We also learned a lot from the implementation of [**VideoRefer**](https://github.com/DAMO-NLP-SG/VideoRefer), [**Sa2VA**](https://github.com/magic-research/Sa2VA), and [**Qwen2VL**](https://github.com/QwenLM/Qwen2-VL). Besides, our VideoLLaMA3 benefits from tons of open-source efforts. If your work is used in RynnEC but not mentioned in either this repo or the technical report, feel free to let us know :heart:.
+Our RynnEC is built on top of [**VideoLLaMA3**](https://github.com/DAMO-NLP-SG/VideoLLaMA3). We also learned a lot from the implementation of [**VideoRefer**](https://github.com/DAMO-NLP-SG/VideoRefer), [**Sa2VA**](https://github.com/magic-research/Sa2VA), and [**Qwen2VL**](https://github.com/QwenLM/Qwen2-VL). Besides, our VideoLLaMA3 benefits from tons of open-source efforts. If your work is used in RynnEC but not mentioned in either this repo or the technical report, feel free to let us know :heart:.
 
 
 ## 🔒 License
