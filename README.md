@@ -18,7 +18,7 @@ RynnEC: Bringing MLLMs into Embodied World</a></h3>
 
 [![ms_checkpoint](https://img.shields.io/badge/👾-Checkpoints-BEBCDF.svg)](https://www.modelscope.cn/models/DAMO_Academy/RynnEC-2B)
 [![ms_checkpoint](https://img.shields.io/badge/👾-Benchmark-BEBCDF.svg)](https://www.modelscope.cn/models/DAMO_Academy/RynnEC-Bench)
-[![yt_video](https://img.shields.io/badge/Video-FCB2AF-?logo=youtube&logoColor=green)](https://www.youtube.com/watch?v=vsMxbzsmrQc)
+[![yt_video](https://img.shields.io/badge/Video-FCB2AF?logo=youtube&logoColor=green)](https://www.youtube.com/watch?v=vsMxbzsmrQc)
 [![arXiv](https://img.shields.io/badge/Arxiv-2501.13106-E69191.svg?logo=arXiv)]() 
 </h5>
 
