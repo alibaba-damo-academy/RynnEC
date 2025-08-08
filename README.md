@@ -9,15 +9,16 @@ RynnEC: Bringing MLLMs into Embodied World</a></h3>
 
 <h5 align="center">
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-F9DF91)](https://github.com/alibaba-damo-academy/RynnEC/blob/main/LICENSE) 
+[![License](https://img.shields.io/badge/License-Apache%202.0-9BDFDF)](https://github.com/alibaba-damo-academy/RynnEC/blob/main/LICENSE) 
 [![hf_space](https://img.shields.io/badge/🤗-Demo-FBD49F.svg)]()
 [![hf_checkpoint](https://img.shields.io/badge/🤗-Checkpoints-FBD49F.svg)](https://huggingface.co/Alibaba-DAMO-Academy/RynnEC-2B) 
 [![hf_checkpoint](https://img.shields.io/badge/🤗-Benchmark-FBD49F.svg)](https://huggingface.co/datasets/Alibaba-DAMO-Academy/RynnEC-Bench)
+[![hf_paper](https://img.shields.io/badge/🤗-Paper%20In%20HF-FBD49F.svg)]()
+<br>
+
 [![ms_checkpoint](https://img.shields.io/badge/👾-Checkpoints-BEBCDF.svg)](https://www.modelscope.cn/models/DAMO_Academy/RynnEC-2B)
 [![ms_checkpoint](https://img.shields.io/badge/👾-Benchmark-BEBCDF.svg)](https://www.modelscope.cn/models/DAMO_Academy/RynnEC-Bench)
-[![ms_checkpoint](https://img.shields.io/badge/▶️-Video-FCB2AF.svg)](https://www.youtube.com/watch?v=vsMxbzsmrQc)
-<br>
-[![hf_paper](https://img.shields.io/badge/🤗-Paper%20In%20HF-FBD49F.svg)]()
+[![ms_checkpoint](https://img.shields.io/badge/logo=youtube-Video-FCB2AF.svg)](https://www.youtube.com/watch?v=vsMxbzsmrQc)
 [![arXiv](https://img.shields.io/badge/Arxiv-2501.13106-E69191.svg?logo=arXiv)]() 
 </h5>
 
