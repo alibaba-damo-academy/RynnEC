@@ -46,7 +46,7 @@ Install required packages:
 ```bash
 git clone https://github.com/alibaba-damo-academy/RynnEC
 cd RynnEC
-pip install -r requirements.txt
+pip install -e .
 pip install flash-attn --no-build-isolation
 ```
 
@@ -67,8 +67,6 @@ Checkout [inference notebooks](inference/notebooks/) that demonstrate how to use
 | [Spatial Understanding](inference/notebooks/2.spatial_understanding.ipynb)       | Demonstrations of using RynnEC for **spatial understanding** with 3D awareness|
 | [Video Object Segmentation](inference/notebooks/3.object_segmentation.ipynb) | Demonstrations of using RynnEC for **video object segmentation** with text-based instructions|
 
-
-
 ## 🤗 Demo
 
 It is highly recommended to try our [online demo]() first.
@@ -84,7 +82,6 @@ options:
   	Optional. Port of the model server.
 ```
 
-
 ## 🕹️ RynnEC-Bench
 RynnEC-Bench evaluates the models in two key areas: `object cognition` and `spatial cognition`, evaluating a total of `22` embodied cognitive abilities.
 
@@ -92,13 +89,138 @@ RynnEC-Bench evaluates the models in two key areas: `object cognition` and `spat
     <img src="assets/bench.png" width="90%" style="margin-bottom: 0.2;"/>
 <p>
 
-For more details, please refer to [RynnEC-Bench](benchmark/readme.md).
+For more details, please refer to [RynnEC-Bench](benchmark).
+
+
+## 🚀 Training
+
+### Step1: Prepare training data
+To use our training code, please organize the annotation files in the following format:
+```
+[
+    # image QA
+    {
+        "image": ["images/xxx.jpg"],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat are the colors of the bus in the image?"
+            },
+            {
+                "from": "gpt",
+                "value": "The bus in the image is white and red."
+            },
+            ...
+        ]
+    },
+    # Video QA
+    {
+        "video": ["videos/xxx.mp4"],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<video>\nWhat are the main activities that take place in the video?"
+            },
+            {
+                "from": "gpt",
+                "value": "The main activities that take place in the video are the preparation of camera equipment by a man, a group of men riding a helicopter, and a man sailing a boat through the water."
+            },
+            ...
+        ]
+    },
+    # Video-object QA (mp4 file)
+    {
+        "video": ["videos/xxx.mp4"],
+        "conversations": [
+            {
+                "from": "human", 
+                "value": "<video>\nWhat is the function of <region>?"
+            }, 
+            {
+                "from": "gpt", 
+                "value": "The color is red."
+            }
+        ],
+        "masks": [
+            {
+                "frame id": {"size": [1080, 1920], "counts": "mask rle"},
+                "frame id": {"size": [1080, 1920], "counts": "mask rle"}
+            }
+        ],
+    },
+    # Video-object QA (image files)
+    {
+        "video": ["videos/xxx/0.png", "videos/xxx/1.png", "videos/xxx/2.png", ...],
+        "conversations": [
+            {
+                "from": "human", 
+                "value": "<video>\nWhat is the function of <region>?"
+            }, 
+            {
+                "from": "gpt", 
+                "value": "The color is red."
+            }
+        ],
+        "masks": [
+            {
+                "frame id": {"size": [1080, 1920], "counts": "mask rle"},
+                "frame id": {"size": [1080, 1920], "counts": "mask rle"}
+            }
+        ],
+        "mask_ids": ["the frame index of each mask in the video list"],
+        "timestamps": ["timestamp of video frames"],
+    },
+    # Image-object QA
+    {
+        "video": ["images/xxx.jpg"],
+        "conversations": [
+            {
+                "from": "human", 
+                "value": "<video>\nWhat is the relationshipw between object1<region> and object2<region>?"
+            }, 
+            {
+                "from": "gpt", 
+                "value": "They are side by side."
+            }
+        ],
+        "masks": [
+            {
+                "0": {"size": [1080, 1920], "counts": "mask rle"},
+            },
+            {
+                "0": {"size": [1080, 1920], "counts": "mask rle"},
+            }
+        ],
+    },
+]
+```
+
+### Step2: Prepare training script
+We provide some templates in `scripts/train` for all stages. You can modify the variables to fit your settings of data and models based on them. For example:
+```
+  --data_folder ./datasets \
+  --data_path stage4.json \
+  --model_path Alibaba-DAMO-Academy/RynnEC-2B \
+  --vision_encoder DAMO-NLP-SG/SigLIP-NaViT \
+```
+
+### Step 3: Start training
+Now you can start training with your training scripts:
+```
+# stage1
+bash scripts/train/stage1.sh
+# stage2
+bash scripts/train/stage1.sh
+...
+```
+
+
 
 
 ## ✅ Evaluation
 
 ### 1.RynnEC-Bench
-Please prepare the datasets and question files used for evaluation [here](benchmark/readme.md).
+Please prepare the datasets and question files used for evaluation [here](benchmark/README.md).
 
 ```bash
 # for object property cognition
