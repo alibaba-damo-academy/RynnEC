@@ -129,10 +129,9 @@ RynnEC
 - **Segmentation Tasks:**  
   To address challenges in evaluating across all video frames, we introduce the **Global IoU** metric:
 
-<!-- <p align="center">
-    <img src="https://latex.codecogs.com/png.image?\dpi{200}\overline{\mathcal{J}} = \frac{\sum_{i=1}^{N} |\mathcal{S}_i \cap \mathcal{G}_i|}{\sum_{i=1}^{N} |\mathcal{S}_i \cup \mathcal{G}_i|}" />
-<p> -->
-<img src="https://latex.codecogs.com/svg.image?\int%20\frac{1}{x}%20dx" />
+<p align="center">
+    <img src="https://latex.codecogs.com/svg.image?\overline{\mathcal{J}}%20=%20\frac{\sum_{i=1}^{N}%20|\mathcal{S}_i%20\cap%20\mathcal{G}_i|}{\sum_{i=1}^{N}%20|\mathcal{S}_i%20\cup%20\mathcal{G}_i|}" />
+<p>
 
   where <img src="https://latex.codecogs.com/svg.image?N" />  is the number of frames, <img src="https://latex.codecogs.com/svg.image?\mathcal{S}_i" /> is the predicted mask, and <img src="https://latex.codecogs.com/svg.image?\mathcal{G}_i" /> is the ground truth for frame <img src="https://latex.codecogs.com/svg.image?i" /> 
   Boundary accuracy <img src="https://latex.codecogs.com/svg.image?\overline{\mathcal{F}}" /> is calculated on non-empty frames.  
