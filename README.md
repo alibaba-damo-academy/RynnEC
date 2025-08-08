@@ -102,18 +102,18 @@ Please prepare the datasets and question files used for evaluation [here](benchm
 
 ```bash
 # for object property cognition
-bash evaluation/eval_object_property.sh
+bash scripts/eval/eval_object_property.sh
 
 # for object segmentation
-bash evaluation/eval_seg.sh
+bash scripts/eval/eval_seg.sh
 
 # for spatial cognition
-bash evaluation/eval_spatial.sh
+bash scripts/eval/eval_spatial.sh
 ```
 
 Note:
 
-Fill in the API_KEY, URL in the [metrics.py](evaluation/metrics.py) first.
+Fill in the API_KEY, URL in the [metrics.py](benchmark/metrics.py) first.
 
 
 ## 📑 Citation
