@@ -135,7 +135,7 @@ RynnEC
   where $N$ is the number of frames, $\mathcal{S}_i$ is the predicted mask, and $\mathcal{G}_i$is the ground truth for frame $i$  
   Boundary accuracy $\overline{\mathcal{F}}$ is calculated on non-empty frames.  
   The combined mean 
-  [<img src="https://latex.codecogs.com/svg.image?\overline{\mathcal{J}}%20\&%20\overline{\mathcal{F}} />]
+  <img src="https://latex.codecogs.com/svg.image?\overline{\mathcal{J}}%20\&%20\overline{\mathcal{F}}" />
   provides a robust and fair assessment of segmentation quality.
 
 
