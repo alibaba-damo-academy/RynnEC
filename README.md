@@ -96,9 +96,9 @@ For more details, please refer to [RynnEC-Bench](benchmark).
 
 ### Step1: Prepare training data
 To use our training code, please organize the annotation files in the following format:
-```
+```json
 [
-    # image QA
+    // image QA
     {
         "image": ["images/xxx.jpg"],
         "conversations": [
@@ -113,7 +113,7 @@ To use our training code, please organize the annotation files in the following 
             ...
         ]
     },
-    # Video QA
+    // Video QA
     {
         "video": ["videos/xxx.mp4"],
         "conversations": [
@@ -128,7 +128,7 @@ To use our training code, please organize the annotation files in the following 
             ...
         ]
     },
-    # Video-object QA (mp4 file)
+    // Video-object QA (mp4 file)
     {
         "video": ["videos/xxx.mp4"],
         "conversations": [
@@ -148,7 +148,7 @@ To use our training code, please organize the annotation files in the following 
             }
         ],
     },
-    # Video-object QA (image files)
+    // Video-object QA (image files)
     {
         "video": ["videos/xxx/0.png", "videos/xxx/1.png", "videos/xxx/2.png", ...],
         "conversations": [
@@ -170,7 +170,7 @@ To use our training code, please organize the annotation files in the following 
         "mask_ids": ["the frame index of each mask in the video list"],
         "timestamps": ["timestamp of video frames"],
     },
-    # Image-object QA
+    // Image-object QA
     {
         "video": ["images/xxx.jpg"],
         "conversations": [
@@ -214,7 +214,11 @@ bash scripts/train/stage1.sh
 ...
 ```
 
-
+### Step 4: Merge LORA weights
+If you use `lora` in the training stage, use the following command to merge the LORA weights after training:
+```
+python tools/merge_lora_weights.py --model_path checkpoints/stage4/checkpoint-xxx --save_path checkpoints/stage4_merge
+```
 
 
 ## ✅ Evaluation
