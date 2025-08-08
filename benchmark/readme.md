@@ -129,13 +129,14 @@ RynnEC
 - **Segmentation Tasks:**  
   To address challenges in evaluating across all video frames, we introduce the **Global IoU** metric:
 
-  $$
-  \overline{\mathcal{J}} = \frac{\sum_{i=1}^{N} |\mathcal{S}_i \cap \mathcal{G}_i|}{\sum_{i=1}^{N} |\mathcal{S}_i \cup \mathcal{G}_i|}
-  $$
+<img src="https://latex.codecogs.com/svg.image?\overline{\mathcal{J}}%20=%20\frac{\sum_{i=1}^{N}%20|\mathcal{S}_i%20\cap%20\mathcal{G}_i|}{\sum_{i=1}^{N}%20|\mathcal{S}_i%20\cup \mathcal{G}_i|}" />
+  
 
   where $N$ is the number of frames, $\mathcal{S}_i$ is the predicted mask, and $\mathcal{G}_i$is the ground truth for frame $i$  
   Boundary accuracy $\overline{\mathcal{F}}$ is calculated on non-empty frames.  
-  The combined mean $\overline{\mathcal{J}} \& \overline{\mathcal{F}}$provides a robust and fair assessment of segmentation quality.
+  The combined mean 
+  [<img src="https://latex.codecogs.com/svg.image?\overline{\mathcal{J}}%20\&%20\overline{\mathcal{F}} />]
+  provides a robust and fair assessment of segmentation quality.
 
 
 **Advantages:**  
