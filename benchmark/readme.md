@@ -134,7 +134,7 @@ RynnEC
 <p> -->
 <img src="https://latex.codecogs.com/png.image?\dpi{200}\int \frac{1}{x} dx" />
 
-  where $N$ is the number of frames, <img src="https://latex.codecogs.com/svg.image?\mathcal{S}_i" /> is the predicted mask, and <img src="https://latex.codecogs.com/svg.image?\mathcal{G}_i" /> is the ground truth for frame <img src="https://latex.codecogs.com/svg.image?i" /> 
+  where <img src="https://latex.codecogs.com/svg.image?N" />  is the number of frames <img src="https://latex.codecogs.com/png.image?\dpi{200}\overline{\mathcal{J}} = \frac{\sum_{i=1}^{N} |\mathcal{S}_i \cap \mathcal{G}_i|}{\sum_{i=1}^{N} |\mathcal{S}_i \cup \mathcal{G}_i|}" /> , <img src="https://latex.codecogs.com/svg.image?\mathcal{S}_i" /> is the predicted mask, and <img src="https://latex.codecogs.com/svg.image?\mathcal{G}_i" /> is the ground truth for frame <img src="https://latex.codecogs.com/svg.image?i" /> 
   Boundary accuracy <img src="https://latex.codecogs.com/svg.image?\overline{\mathcal{F}}" /> is calculated on non-empty frames.  
   The combined mean <img src="https://latex.codecogs.com/svg.image?\overline{\mathcal{J}}%20\&%20\overline{\mathcal{F}}" />provides a robust and fair assessment of segmentation quality.
 
