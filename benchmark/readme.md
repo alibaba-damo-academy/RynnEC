@@ -8,7 +8,7 @@ RynnEC-Bench evaluates fine-grained embodied understanding models from the persp
 <p>
 
 ---
-| Model | Overall Mean | Object Properties | Seg. DR | Seg. SR | Object Mean | Ego. His. | Ego. Pres. | Ego. Fut. | World Size | World Dis. | World PR | Spatial Mean |
+| Model | <font color="red">*Overall Mean* </font> | Object Properties | Seg. DR | Seg. SR | <font color="red">*Object Mean*</font> | Ego. His. | Ego. Pres. | Ego. Fut. | World Size | World Dis. | World PR | <font color="red">*Spatial Mean*</font> |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | GPT-4o | 28.3 | 41.1 | --- | --- | 33.9 | 13.4 | 22.8 | 6.0 | 24.3 | 16.7 | 36.1 | 22.2 |
 | GPT-4.1 | 33.5 | 45.9 | --- | --- | 37.8 | 17.2 | 27.6 | 6.1 | 35.9 | 30.4 | 45.7 | 28.8 |
@@ -31,9 +31,9 @@ RynnEC-Bench evaluates fine-grained embodied understanding models from the persp
 Object cognition is divided into the object properties cognition task and the referring object segmentation tasks.
 
 ### Object Property Cognition 
-This subset is designed to evaluate the model"s ability to recognize object attributes. It is subdivided into 11 categories: category, color, material, shape, state, position, function surface detail, size, counting. It comprises a total of 10354 curated data entries. All entries have been manually annotated and verified. 
+This subset is designed to evaluate the model's ability to recognize object attributes. It is subdivided into 10 categories: category, color, material, shape, state, position, function, surface detail, size, counting. It comprises a total of 10354 curated data entries. All entries have been manually annotated and verified. 
 
-🌟 **Data Balance**: To address evaluation biases from inconsistent object distributions across houses, we first established a real-world object frequency distribution by analyzing 500k indoor images with GPT-4o. We then employed frequency-based sampling to ensure our benchmark"s data mirrors this real-world distribution, and further balanced question difficulty for a more objective and realistic evaluation.
+🌟 **Data Balance**: To address evaluation biases from inconsistent object distributions across houses, we first established a real-world object frequency distribution by analyzing 500k indoor images with GPT-4o. We then employed frequency-based sampling to ensure our benchmark's data mirrors this real-world distribution, and further balanced question difficulty for a more objective and realistic evaluation.
 
 
 
@@ -59,7 +59,7 @@ This subset is designed to evaluate the model"s ability to recognize object attr
 - All the segmentations are in `RLE` format.
 
 ### Referring Object Segmentation
-This subset is designed to evaluate the model"s ability of precise instance segmentation. The task is divided into direct referring problems and situational referring problems. Direct referring problems involve only combinations of descriptions for the instance, while contextual referring problems are set within a scenario, requiring MLLMs to perform reasoning in order to identify the target object. All entries have been manually annotated and verified. 
+This subset is designed to evaluate the model's ability of precise instance segmentation. The task is divided into direct referring problems and situational referring problems. Direct referring problems involve only combinations of descriptions for the instance, while contextual referring problems are set within a scenario, requiring MLLMs to perform reasoning in order to identify the target object. All entries have been manually annotated and verified. 
 
 
 

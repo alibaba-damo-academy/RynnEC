@@ -13,6 +13,8 @@ RynnEC: Bringing MLLMs into Embodied World</a></h3>
 [![hf_space](https://img.shields.io/badge/🤗-Demo-9C276A.svg)]()
 [![hf_checkpoint](https://img.shields.io/badge/🤗-Checkpoints-9C276A.svg)](https://huggingface.co/Alibaba-DAMO-Academy/RynnEC-2B) 
 [![hf_checkpoint](https://img.shields.io/badge/🤗-Benchmark-9C276A.svg)](https://huggingface.co/datasets/Alibaba-DAMO-Academy/RynnEC-Bench)
+[![ms_checkpoint](https://img.shields.io/badge/🤖-Checkpoints-9C276A.svg)](https://www.modelscope.cn/models/DAMO_Academy/RynnEC-2B)
+[![ms_checkpoint](https://img.shields.io/badge/🤖-Benchmark-9C276A.svg)](https://www.modelscope.cn/models/DAMO_Academy/RynnEC-Bench)
 <br>
 [![hf_paper](https://img.shields.io/badge/🤗-Paper%20In%20HF-red.svg)]()
 [![arXiv](https://img.shields.io/badge/Arxiv-2501.13106-AD1C18.svg?logo=arXiv)]() 
