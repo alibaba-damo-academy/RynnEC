@@ -20,7 +20,7 @@ RynnEC: Bringing MLLMs into Embodied World</a></h3>
 [![arXiv](https://img.shields.io/badge/Arxiv-2501.13106-AD1C18.svg?logo=arXiv)]() 
 </h5>
 
-https://github.com/user-attachments/assets/401c7ed5-46b0-46f9-a477-0b2f7723000e
+https://github.com/user-attachments/assets/3c12371e-ce95-4465-bc51-bff0b13749b5
 
 
 ## 📰 News
