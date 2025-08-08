@@ -21,6 +21,8 @@ RynnEC: Bringing MLLMs into Embodied World</a></h3>
 </h5>
 
 
+
+
 ## 📰 News
 * **[2025.08.08]**  🔥🔥 Release our RynnEC-2B model, RynnEC-Bench and training code.
 
