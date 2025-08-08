@@ -136,7 +136,7 @@ To use our training code, please organize the annotation files in the following 
         "conversations": [
             {
                 "from": "human", 
-                "value": "<video>\nWhat is the function of <region>?"
+                "value": "<video>\nWhat is the color of <region>?"
             }, 
             {
                 "from": "gpt", 
@@ -156,7 +156,7 @@ To use our training code, please organize the annotation files in the following 
         "conversations": [
             {
                 "from": "human", 
-                "value": "<video>\nWhat is the function of <region>?"
+                "value": "<video>\nWhat is the color of <region>?"
             }, 
             {
                 "from": "gpt", 
@@ -186,12 +186,8 @@ To use our training code, please organize the annotation files in the following 
             }
         ],
         "masks": [
-            {
-                "0": {"size": [1080, 1920], "counts": "mask rle"},
-            },
-            {
-                "0": {"size": [1080, 1920], "counts": "mask rle"},
-            }
+            {"size": [1080, 1920], "counts": "mask rle"},
+            {"size": [1080, 1920], "counts": "mask rle"}
         ],
     },
 ]
@@ -212,7 +208,7 @@ Now you can start training with your training scripts:
 # stage1
 bash scripts/train/stage1.sh
 # stage2
-bash scripts/train/stage1.sh
+bash scripts/train/stage2.sh
 ...
 ```
 
@@ -221,6 +217,7 @@ If you use `lora` in the training stage, use the following command to merge the 
 ```
 python tools/merge_lora_weights.py --model_path checkpoints/stage4/checkpoint-xxx --save_path checkpoints/stage4_merge
 ```
+
 
 
 ## ✅ Evaluation
