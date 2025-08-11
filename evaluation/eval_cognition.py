@@ -38,7 +38,7 @@ def run_inference(args):
         disable_torch_init()
         model, processor = model_init(args.model_path)
     
-    val_loader = build_cog_dataloader(args, args.video_folder, args.num_chunks, args.chunk_idx, args.batch_size, args.num_workers, distributed=distributed)
+    val_loader = build_cog_dataloader(args.question_file, args.video_folder, args.num_chunks, args.chunk_idx, args.batch_size, args.num_workers, distributed=distributed)
     
     results = []
     for i, (idx, video, masks_, questions, mask_ids, answers, types, class_name) in enumerate(tqdm(val_loader, desc=f"Rank {global_rank}", total=len(val_loader), position=local_rank)):

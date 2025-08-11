@@ -40,7 +40,7 @@ def run_inference(args):
 
     model.to(torch.bfloat16)
     
-    val_loader = build_seg_dataloader(args, args.video_folder, args.only_mask_img, args.num_chunks, args.chunk_idx, args.batch_size, args.num_workers, distributed=distributed)
+    val_loader = build_seg_dataloader(args.question_file, args.video_folder, args.only_mask_img, args.num_chunks, args.chunk_idx, args.batch_size, args.num_workers, distributed=distributed)
     
     results = []
     for i, (idx, video, masks_, instruction, typ, mask_ids) in enumerate(tqdm(val_loader, desc=f"Rank {global_rank}", total=len(val_loader), position=local_rank)):
