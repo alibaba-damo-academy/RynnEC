@@ -41,11 +41,13 @@ TYPE_LIST = {
         "Situational Referring"
     ],
     "Self-Centered": {
-        "Historical": ["camera_rotation", "camerall_distance"],
-        "Present": ["relative_direction_to_camera", "distance_to_camera", "direction_to_camera", "direction_to_camera_3", "distance_to_camera_choice_3", "relative_direction_to_camera_2", "distance_to_camera_2", "relative_distance_to_object_choice_2"],
-        "Future": [
+        "Trajectory Review": ["camera_rotation", "camerall_distance"],
+        "Ego Direction": ["relative_direction_to_camera", "distance_to_camera", "direction_to_camera", "direction_to_camera_3", "relative_direction_to_camera_2"],
+        "Ego Distance": ["distance_to_camera_choice_3", "distance_to_camera_2", "relative_distance_to_object_choice_2"],
+        "Movement Imagery": [
             "future_direction_to_camera",
-            "future_direction_to_camera_rotate",
+            "future_direction_to_camera_rotate"],
+        "Spatial Imagery":[
             "future_direction_object_3"
         ]
     },
@@ -60,18 +62,19 @@ TYPE_LIST = {
             "short_choice",
             "big_predicate",
             "small_predicate",
-            "height_from_ground"
         ],
-        "Distance": [
+        "Object height": ["height_from_ground"],
+        "Object Distance": [
             "distance_compare",
             "center_distance"
         ],
-        "Position": [
-            "between",
+        "Absolute Position": [
             "above_predicate",
             "above_choice",
             "below_predicate",
-            "below_choice",
+            "below_choice"],
+
+        "Rel Position": ["between",
             "directly_above"
         ]
     }
