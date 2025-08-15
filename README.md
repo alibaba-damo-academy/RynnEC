@@ -74,7 +74,7 @@ Checkout [inference notebooks](inference/notebooks/) that demonstrate how to use
 
 ## 🤗 Demo
 
-It is highly recommended to try our [online demo](https://huggingface.co/spaces/Alibaba-DAMO-Academy/RynnE) first.
+It is highly recommended to try our [online demo](https://huggingface.co/spaces/Alibaba-DAMO-Academy/RynnEC) first.
 
 Otherwise, you can launch a gradio app locally:
 
