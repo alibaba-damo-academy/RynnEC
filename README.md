@@ -10,7 +10,7 @@ RynnEC: Bringing MLLMs into Embodied World</a></h3>
 <h5 align="center">
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-9BDFDF)](https://github.com/alibaba-damo-academy/RynnEC/blob/main/LICENSE) 
-[![hf_checkpoint](https://img.shields.io/badge/🤗-Checkpoints-FBD49F.svg)](https://huggingface.co/Alibaba-DAMO-Academy/RynnEC-2B) 
+[![hf_checkpoint](https://img.shields.io/badge/🤗-Checkpoints-FBD49F.svg)](https://huggingface.co/collections/Alibaba-DAMO-Academy/rynnec-6893547fe802ace82cee8884)
 [![hf_checkpoint](https://img.shields.io/badge/🤗-Benchmark-FBD49F.svg)](https://huggingface.co/datasets/Alibaba-DAMO-Academy/RynnEC-Bench)
 [![hf_demo](https://img.shields.io/badge/🤗-Demo-FBD49F.svg)](https://huggingface.co/spaces/Alibaba-DAMO-Academy/RynnEC)
 [![yt_video](https://img.shields.io/badge/Video-36600E?logo=youtube&logoColor=green)](https://www.youtube.com/watch?v=vsMxbzsmrQc)
@@ -24,6 +24,7 @@ https://github.com/user-attachments/assets/3c12371e-ce95-4465-bc51-bff0b13749b5
 
 
 ## 📰 News
+* **[2025.08.17]**  🤗 [RynnEC-7B model](https://huggingface.co/Alibaba-DAMO-Academy/RynnEC-7B) checkpoint has been released in Huggingface.
 * **[2025.08.08]**  🔥🔥 Release our RynnEC-2B model, RynnEC-Bench and training code.
 
 
