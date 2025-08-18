@@ -25,7 +25,7 @@ https://github.com/user-attachments/assets/3c12371e-ce95-4465-bc51-bff0b13749b5
 
 ## 📰 News
 * **[2025.08.17]**  🤗 [RynnEC-7B model](https://huggingface.co/Alibaba-DAMO-Academy/RynnEC-7B) checkpoint has been released in Huggingface.
-* **[2025.08.08]**  🔥🔥 Release our RynnEC-2B model, RynnEC-Bench and training code.
+* **[2025.08.08]**  🔥🔥 Release our [RynnEC-2B model](https://huggingface.co/Alibaba-DAMO-Academy/RynnEC-2B), [RynnEC-Bench](https://huggingface.co/datasets/Alibaba-DAMO-Academy/RynnEC-Bench) and training code.
 
 
 ## 🌟 Introduction
@@ -60,7 +60,9 @@ pip install flash-attn --no-build-isolation
 
 | Model                | Base Model   | HF Link                                                      |
 | -------------------- | ------------ | ------------------------------------------------------------ |
-| RynnEC-2B       | Qwen2.5-1.5B   | [Alibaba-DAMO-Academy/RynnEC-2B](https://huggingface.co/Alibaba-DAMO-Academy/RynnEC-2B) |
+| RynnEC-2B       | Qwen2.5-1.5B-Instruct   | [Alibaba-DAMO-Academy/RynnEC-2B](https://huggingface.co/Alibaba-DAMO-Academy/RynnEC-2B) |
+| RynnEC-7B       | Qwen2.5-7B-Instruct   | [Alibaba-DAMO-Academy/RynnEC-7B](https://huggingface.co/Alibaba-DAMO-Academy/RynnEC-7B) |
+
 
 
 
