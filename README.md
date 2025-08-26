@@ -251,6 +251,17 @@ Fill in the API_KEY, URL in the [metrics.py](benchmark/metrics.py) first.
 
 If you find RynnEC useful for your research and applications, please cite using this BibTeX:
 
+```bibtex
+@misc{dang2025rynnecbringingmllmsembodied,
+      title={RynnEC: Bringing MLLMs into Embodied World}, 
+      author={Ronghao Dang and Yuqian Yuan and Yunxuan Mao and Kehan Li and Jiangpin Liu and Zhikai Wang and Xin Li and Fan Wang and Deli Zhao},
+      year={2025},
+      eprint={2508.14160},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2508.14160}, 
+}
+```
 
 
 ## 👍 Acknowledgement
