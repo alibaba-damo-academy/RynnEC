@@ -262,6 +262,22 @@ If you find RynnEC useful for your research and applications, please cite using 
       url={https://arxiv.org/abs/2508.14160}, 
 }
 ```
+<details open><summary>💡 Other featured projects from our RynnBot family ✨. </summary><p>
+    
+<!--  may -->
+> [**RynnVLA-001: A Vision-Language-Action Model Boosted by Generative Priors**](https://github.com/alibaba-damo-academy/RynnVLA-001) <br>
+> Yuming Jiang, Siteng Huang, Shengke Xue, Yaxi Zhao, Jun Cen, Sicong Leng, Jiayan Guo, Kexiang Wang, Kehan Li, Mingxiu Chen, Fan Wang, Deli Zhao, Xin Li <br>
+[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/alibaba-damo-academy/RynnVLA-001)  [![github](https://img.shields.io/github/stars/alibaba-damo-academy/RynnVLA-001.svg?style=social)](https://github.com/alibaba-damo-academy/RynnVLA-001)  <be> 
+
+> [**RynnRCP: Open Robotics Context Protocol and RobotMotion**](https://github.com/alibaba-damo-academy/RynnRCP) <br>
+> RynnBot Team <br>
+[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/alibaba-damo-academy/RynnRCP)  [![github](https://img.shields.io/github/stars/alibaba-damo-academy/RynnRCP.svg?style=social)](https://github.com/alibaba-damo-academy/RynnRCP)  <br>
+
+> [**WorldVLA: Towards Autoregressive Action World Model**](https://arxiv.org/abs/2506.21539) <br>
+> Jun Cen, Chaohui Yu, Hangjie Yuan, Yuming Jiang, Siteng Huang, Jiayan Guo, Xin Li, Yibing Song, Hao Luo, Fan Wang, Deli Zhao, Hao Chen <br>
+[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/alibaba-damo-academy/WorldVLA)  [![github](https://img.shields.io/github/stars/alibaba-damo-academy/WorldVLA.svg?style=social)](https://github.com/alibaba-damo-academy/WorldVLA)  [![arXiv](https://img.shields.io/badge/Arxiv-2506.21539-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2506.21539) <br>
+
+</p></details>
 
 
 ## 👍 Acknowledgement
