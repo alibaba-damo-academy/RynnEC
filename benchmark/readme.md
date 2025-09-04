@@ -137,6 +137,14 @@ RynnEC
   Boundary accuracy <img src="https://latex.codecogs.com/svg.image?\overline{\mathcal{F}}" /> is calculated on non-empty frames.  
   The combined mean <img src="https://latex.codecogs.com/svg.image?\overline{\mathcal{J}}%20\&%20\overline{\mathcal{F}}" />provides a robust and fair assessment of segmentation quality.
 
+## 5. Bbox on Images
+If you want to evaluate **RynnEC-Bench** on models that cannot handle masks ( e.g. qwen2.5vl ), you can run code in folder `benchmark/process_bboxdata`. First, draw the bounding box on the videos:
+
+```bash
+python get_bbox_data.py --data_json {PATH_TO_JSON_FILE} --data_folder {PATH_TO_ORIGINAL_VIDEO} --output_dir {PATH_TO_OUTPUT_DATA}
+```
+Then, you can use `benchmark/process_bboxdata/bbox_dataloader.py` to load your data with bounding box.
+
 
 **Advantages:**  
 This framework ensures results are both accurate and consistent across diverse embodied perception tasks.
