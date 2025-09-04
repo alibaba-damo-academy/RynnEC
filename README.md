@@ -60,8 +60,8 @@ pip install flash-attn --no-build-isolation
 
 | Model                | Base Model   | HF Link                                                      |
 | -------------------- | ------------ | ------------------------------------------------------------ |
-| RynnEC-2B       | Qwen2.5-1.5B-Instruct   | [Alibaba-DAMO-Academy/RynnEC-2B](https://huggingface.co/Alibaba-DAMO-Academy/RynnEC-2B) |
-| RynnEC-7B       | Qwen2.5-7B-Instruct   | [Alibaba-DAMO-Academy/RynnEC-7B](https://huggingface.co/Alibaba-DAMO-Academy/RynnEC-7B) |
+| RynnEC-2B       | [Qwen2.5-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct) & [VideoLLaMA3-2B-Image](https://huggingface.co/DAMO-NLP-SG/VideoLLaMA3-2B-Image)   | [Alibaba-DAMO-Academy/RynnEC-2B](https://huggingface.co/Alibaba-DAMO-Academy/RynnEC-2B) |
+| RynnEC-7B       | [Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) & [VideoLLaMA3-7B-Image](https://huggingface.co/DAMO-NLP-SG/VideoLLaMA3-7B-Image)   | [Alibaba-DAMO-Academy/RynnEC-7B](https://huggingface.co/Alibaba-DAMO-Academy/RynnEC-7B) |
 
 
 
